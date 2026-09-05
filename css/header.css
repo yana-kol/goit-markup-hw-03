@@ -1,0 +1,24 @@
+.header {
+}
+.main-nav {
+}
+.main-nav-list {
+}
+.main-nav-item {
+}
+.main-nav-link:focus,
+.main-nav-link:hover {
+  color: #404bbf;
+}
+
+.social-list {
+}
+.social-item {
+}
+.social-link {
+  font-weight: 500;
+}
+.social-link:focus,
+.social-link:hover {
+  color: #404bbf;
+}

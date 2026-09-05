@@ -1,0 +1,22 @@
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+  background: #fff;
+}
+.team-ill {
+}
+.team-pepl {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-prof {
+  font-weight: 400;
+  text-align: center;
+  color: #434455;
+}
