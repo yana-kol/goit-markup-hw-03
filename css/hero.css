@@ -5,7 +5,6 @@
 .hero-container {
   padding: 0 15px;
 
-  height: 224px;
   max-width: 1158px;
 }
 .hero-title {
@@ -22,8 +21,6 @@
   display: block;
   margin: auto;
 
-  max-width: 169px;
-  height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
   letter-spacing: 0.04em;

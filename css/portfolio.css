@@ -13,13 +13,16 @@
   width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-ill {
+  display: block;
 }
 .portfolio-card {
+  border: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
 .portfolio-func {
   font-size: 20px;
   line-height: 1.2;
+  margin: 0 auto 8px;
 }
 .portfolio-prop {
   font-weight: 400;

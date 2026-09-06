@@ -11,10 +11,11 @@
 }
 .team-item {
   width: calc((100% - 24px * 3) / 4);
-
+  border-radius: 0 0 4px 4px;
   background: #fff;
 }
 .team-ill {
+  display: block;
   min-width: 100%;
 }
 .team-pepl {
