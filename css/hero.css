@@ -1,6 +1,8 @@
 .hero {
-  padding: 188px;
   background: #2e2f42;
+}
+.section.hero {
+  padding: 188px;
 }
 .hero-container {
   padding: 0 15px;

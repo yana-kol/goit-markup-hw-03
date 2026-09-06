@@ -1,25 +1,23 @@
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 72px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .main-nav {
   margin-right: auto;
   margin-left: 76px;
 }
-.main-nav-list:midle-child {
-  justify-content: space-between;
-}
+
 .main-nav-list {
   display: inline-flex;
 
   gap: 40px;
 }
-.main-nav-link: {
+.main-nav-link {
   display: block;
 
   padding: 24px 0;
