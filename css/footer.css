@@ -1,10 +1,14 @@
 .footer {
+  padding: 100px;
   background: #2e2f42;
 }
 .footer-logo {
+  margin: 0 auto 16px;
   color: #f4f4fd;
 }
 .footer-item {
+  display: flex;
+  width: 264px;
   font-weight: 400;
   color: #f4f4fd;
 }

@@ -8,8 +8,20 @@ body {
   color: #2e2f42;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 ol,
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 a {
@@ -17,15 +29,23 @@ a {
   font-style: normal;
   color: inherit;
 }
-/* font-family;
-font-weight;
-font-size;
-line-height;
-letter-spacing;
-color;
-text-transform */
+.img {
+  display: block;
+}
+/**/
 /*Base styles*/
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: rect (0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
 .section {
+  padding: 120px;
 }
 .section-title {
   font-weight: 700;
@@ -37,7 +57,18 @@ text-transform */
 .acent {
   color: #4d5ae5;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  /*outline: 2px solid red;
+  outline-offset: -2px;*/
+}
 .logo {
+  display: inline-flex;
+  align-self: center;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;

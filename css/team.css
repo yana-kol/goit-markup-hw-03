@@ -1,14 +1,21 @@
 .team {
   background: #f4f4fd;
 }
+
 .team-title {
+  margin: 0 auto 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
+  width: calc((100% - 24px * 3) / 4);
+
   background: #fff;
 }
 .team-ill {
+  min-width: 100%;
 }
 .team-pepl {
   font-size: 20px;
@@ -19,4 +26,17 @@
   font-weight: 400;
   text-align: center;
   color: #434455;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  /*
+  width: 264px;padding: 32px;
+  height: 120px;*/
+}
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
 }
